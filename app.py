@@ -3,8 +3,11 @@ import numpy as np
 import pickle
 
 
-#Load Train Kmeans Model
-kmeans = pickle.open('kmeans.pkl','rb')
+
+
+# Load the trained model
+with open("kmeans.pkl", "rb") as file:
+    kmeans = pickle.load(file)
 
 
 #simple clustering function
