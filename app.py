@@ -4,7 +4,7 @@ import pickle
 
 
 #Load Train Kmeans Model
-kmeans = pickle.load(open('kmeans.pkl','rb'))
+kmeans = pickle.open('kmeans.pkl','rb')
 
 
 #simple clustering function
