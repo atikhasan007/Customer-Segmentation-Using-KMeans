@@ -29,7 +29,7 @@ def clustering(age, avg_spend, visit_per_week, promotion_interest):
 
 
 #streamlit app is here
-st.title("Customer Clustomer Details")
+st.title("Customer Clusters  Details")
 st.write("Enter Customer Details")
 
 
